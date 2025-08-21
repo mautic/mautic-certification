@@ -1,4 +1,4 @@
-# mautic-certification
+# Mautic Certification
 ## Community Volunteer Expectations
 
 Below are the expectations from Community Volunteers to be fulfilled as and when needed:
