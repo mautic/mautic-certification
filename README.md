@@ -44,4 +44,4 @@ Below are the expectations from Community Volunteers to be fulfilled as and when
 
 * Respect timelines and collaboration etiquette.
 * Commit to constructive feedback and collaborative improvements.
-* Abide by non-disclosure and integrity policies during content reviews (where applicable).
+* Abide by non-disclosure and integrity policies during content reviews (where applicable). 
