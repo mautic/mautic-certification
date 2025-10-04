@@ -373,6 +373,7 @@ Twig is the templating engine used throughout Mautic for rendering views and ema
 - Performance optimization
 - Security considerations
 - Integration with Mautic's data
+- Translations and pluralization
 
 ### Official Reference Links
 - [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
