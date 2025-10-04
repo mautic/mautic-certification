@@ -11,6 +11,7 @@ This comprehensive curriculum is designed to train developers to become certifie
 - Database concepts (MySQL/MariaDB)
 - Command line interface experience
 - Git version control basics
+- Familiarity with Codeception unit testing framework
 
 ## Module 1: Prerequisites for Mautic
 
@@ -50,7 +51,9 @@ DDEV provides a standardized, containerized development environment that ensures
 - Database setup and management
 - Environment configuration
 - Debugging setup with DDEV
+- Profiling code performance with Xhprof, Blackfire or Xdebug
 - Performance optimization in development
+- Unit testing setup in Mautic
 
 ### Official Reference Links
 - [DDEV Installation Guide](https://ddev.readthedocs.io)
@@ -98,6 +101,7 @@ Proper configuration is crucial for Mautic's performance and functionality. This
 - Performance and caching settings
 - Security configurations
 - Multi-tenancy considerations
+- Familiarity with production environment configuration
 
 ### Official Reference Links
 - [Configuration Settings](https://docs.mautic.org/en/5.x/configuration/settings.html)
@@ -122,11 +126,16 @@ Mautic is built on the Symfony framework, which provides a robust foundation for
 - Event system and hooks
 - Form handling and validation
 - Security and authentication
+- Translations
+- Integration with Third-Party authentication systems for fetching data form other services
+- Configurations for Bundle
+- Familiarity with IntegrationsBundle to add new integrations
 
 ### Official Reference Links
 - [Developer Documentation Overview](https://devdocs.mautic.org/en/5.x/)
 - [Plugin Development Guide](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
 - [Mautic vs Symfony](https://devdocs.mautic.org/en/5.x/plugins/mautic_vs_symfony.html)
+- [Integrations](https://devdocs.mautic.org/en/5.x/components/integrations.html)
 
 ## Module 6: Mautic's API Overview
 
@@ -217,6 +226,7 @@ Plugins are the primary way to extend Mautic's functionality. This module covers
 - User interface integration
 - Security considerations
 - Distribution and packaging
+- Authentication with third party systems
 
 ### Official Reference Links
 - [Plugin Development](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
@@ -289,6 +299,8 @@ This hands-on module walks through creating a complete plugin, from initial stru
 - User interface integration
 - Testing and validation
 - Installation and activation
+- Console commands for the plugin
+- Familiarity with DTO (Data transfer objects) pattern
 
 ### Official Reference Links
 - [Plugin Getting Started](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
@@ -493,6 +505,7 @@ Doctrine ORM is the database abstraction layer used in Mautic. Understanding Doc
 - Design and implement custom entities
 - Set up entity relationships
 - Implement entity validation and constraints
+- Extending Mautic's core entities.
 
 ### Context
 Custom entities allow developers to extend Mautic's data model for specific use cases. This module covers the complete process of creating and managing custom entities.
